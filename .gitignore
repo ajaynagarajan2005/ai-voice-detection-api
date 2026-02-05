@@ -1,0 +1,35 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing and Samples
+tests/
+samples/test_sample
+utils/__pycache__/
+core/__pycache__/
+debug_*.py
+!requirements.txt
+
+# Deployment configs for other platforms
+render.yaml
+Procfile
+# Hugging Face README config is handled separately
+!README.md

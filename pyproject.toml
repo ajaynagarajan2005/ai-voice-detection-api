@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-voice-detection"
+version = "1.0.0"
+description = "AI Voice Detection API - Detects AI-generated vs Human voices"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi==0.109.0",
+    "uvicorn[standard]==0.27.0",
+    "python-multipart==0.0.9",
+    "librosa==0.10.1",
+    "pydub==0.25.1",
+    "numpy>=1.26.0",
+    "python-dotenv==1.0.1",
+    "soundfile==0.12.1",
+    "numba>=0.59.0",
+    "llvmlite>=0.42.0",
+    "scipy>=1.11.0",
+    "setuptools",
+]
