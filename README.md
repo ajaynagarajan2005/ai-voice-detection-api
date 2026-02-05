@@ -17,7 +17,7 @@ pinned: false
 
 ---
 
-## Our Team
+## Our Team 
 
 - **Ajay**
 - **Tamizharasan**
